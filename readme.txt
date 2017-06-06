@@ -1,1 +1,2 @@
-REDO w/o Licence stuff
+TODO:
+Change all
