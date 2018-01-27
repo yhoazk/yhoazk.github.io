@@ -2,11 +2,11 @@
 <head> <title> The title </title>
   <link rel="stylesheet" href="css/default.css"
 </head>
-<body bgcolor="gray">
+<body bgcolor="#2b2e33">
 <ul>
-<li> one </li>
-<li> two </li>
-<li> three</li>
+<li color="red"> vexing </li>
+<li> carroten </li>
+<li> goats </li>
 </ul>
 <hr/>
 <table bgcolor="black" boder="1" align="center" width="600"
@@ -20,14 +20,34 @@ hello <b> th </b> <u>e</u> <s>re</s>..
 
 </td><td>
 
-<marquee><font color="green">&lt;dd&gt; tapeworm
+<marquee><font color="green">&lt;dd&gt; ^Z 
 &lt;/dd&gt;</font></marquee>
 </td></tr>
 
 </table>
 
-<a href="./images/27xe0l4.jpg">
-<img  width="100" heigth="100" src="file://images/27xe0l4.jpg"
+
+<script type="text/JavaScript">
+<!--
+var picCount=0; // global
+var picArray= ["img2.gif","img3.gif","img4.gif","img1.gif"]
+//
+// gets next picture in array
+function nextPic()
+{ // check if adding 1 exceeds number of pics in array
+picCount=(picCount+1<picArray.length)? picCount+1 : 0;
+// build the img to write to page using the new pic reference
+var build='<img border="0" src="'+picArray[picCount]+'" width="205" height="100">\
+';
+document.getElementById("imgHolder").innerHTML=build;
+// repeat this after a puse of 2000ms (2sec).
+setTimeout('nextPic()',2000)
+}
+//-->
+</script>
+
+<!-- a href="./images/27xe0l4.jpg"-->
+<img  class="center" width="400" src="./images/secxes.jpg"
 alt="Important Stuff"/>
 <br />click me </a>
 </body>
