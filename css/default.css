@@ -34,3 +34,59 @@ img {
     border: 3px solid red;
     padding: 10px;
 }
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: black;
+  color: cyan;
+}
+
+.graph .axis {
+  stroke-width: 1;
+  fill: gray;
+  background-color: red;
+  border-bottom: dashed;
+  color: aliceblue;
+}
+
+table {
+  border: 1px solid red;
+}
+th {
+  text-align: left;
+}
+.grid .axis{
+  stroke-width:4px;
+  color: #777777;
+}
+.graph .axis .tick line {
+  stroke: blue;
+}
+
+.graph .axis .tick text {
+  fill: blue;
+  font-size: 0.7em;
+}
+
+.graph .axis .domain {
+    fill: none;
+    stroke: red;
+}
+
+
+.segment_display{
+  color: cyan;
+  fill: red;
+
+}
+
+.area {
+  fill: lightsteelblue;
+  stroke-width: 0;
+}
+.graph .group {
+  fill: none;
+  stroke: red;
+  stroke-width: 1.5;
+}
+
